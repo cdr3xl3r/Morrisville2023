@@ -41,9 +41,7 @@ foreach($user in $CSV) {
                 -Surname $user.'Last Name' `
                 -UserPrincipalName $Username `
                 -SamAccountName $Username `
-                -EmailAddress $user.'Email Address' `
                 -Description $user.Description `
-                -OfficePhone $user.'Office Phone' `
                 -Path "$($user.'Organizational Unit')" `
                 -ChangePasswordAtLogon $true `
                 -AccountPassword $SecurePassword `
