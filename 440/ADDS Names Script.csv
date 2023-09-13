@@ -1,100 +1,101 @@
-﻿Ariel Burch
-1. Mia Zhang
-2. Jaydon Lopez
-3. Raul Little
-4. Sullivan Rivera
-5. Marin Lindsey
-6. Tiana Cuevas
-7. Francis Soto
-8. Maxwell Mcintosh
-9. Howard Dunlap
-10. Valeria Pacheco
-11. Yadiel Haney
-12. Tate Carter
-13. Kierra Clayton
-14. Ali Dorsey
-15. Carter Dawson
-16. Emmalee Anderson
-17. Mohamed Prince
-18. Adelyn Boyle
-19. Carson George
-20. Zaid Herman
-21. Noelle Stephens
-22. Heidi Adams
-23. Brynlee Valenzuela
-24. Nylah Mason
-25. Abagail Blackwell
-26. Gabriel Rivera
-27. Selah Calhoun
-28. Skylar Kent
-29. Makaila Nicholson
-30. Stephanie Rangel
-31. Julianne Hutchinson
-32. Abram Decker
-33. Crystal Green
-34. Brittany Levy
-35. Quinten Tucker
-36. Esteban Rubio
-37. Dayanara Barry
-38. Dane Zimmerman
-39. Jan West
-40. Zackary Steele
-41. Mareli Silva
-42. Leo Luna
-43. Milton Cummings
-44. Joy Compton
-45. Rachel Malone
-46. Haylee Erickson
-47. Shea Knight
-48. Kenna Cordova
-49. Jaylene Pham
-50. Yoselin Petersen
-51. Taniyah Barr
-52. Viviana Hatfield
-53. Chandler Nichols
-54. Audrina Berg
-55. Alanna Hendricks
-56. Emelia Ali
-57. Jaxon Werner
-58. Olivia Yoder
-59. Monica Fernandez
-60. Xzavier Caldwell
-61. Rosemary Owen
-62. Jaidyn Rose
-63. Thomas Blair
-64. Kyla Bridges
-65. Solomon Tyler
-66. Lainey Arellano
-67. Meredith Velasquez
-68. Esther Lopez
-69. Xiomara Love
-70. Zane Reid
-71. Trenton Lindsey
-72. Shane Mcgrath
-73. Dustin Shepard
-74. Itzel Cochran
-75. Jasiah Whitney
-76. Emmanuel Chase
-77. Emiliano Waters
-78. Reina Herman
-79. Micaela Snow
-80. Marlee Hale
-81. Angelica Key
-82. Elsa Montes
-83. Gerardo Duncan
-84. Gina Barr
-85. Genesis Anthony
-86. Peyton Davenport
-87. Valentino Dean
-88. America Cline
-89. Luciano Hammond
-90. Alejandra Norris
-91. Angel Macdonald
-92. Colby Donovan
-93. Dustin Watson
-94. Mollie Bright
-95. Yandel Osborne
-96. Angelina Spears
-97. Kenzie Pugh
-98. Jazlynn Fuentes
-99. Emilia Hines
+﻿First Name, Last Name,Job Title,Employee ID,Description,Organizational Unit,Enabled,Password
+Ariel, Burch,440 Student,1,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Mia, Zhang,440 Student,2,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Jaydon, Lopez,440 Student,3,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Raul, Little,440 Student,4,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Sullivan, Rivera,440 Student,5,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Marin, Lindsey,440 Student,6,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Tiana, Cuevas,440 Student,7,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Francis, Soto,440 Student,8,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Maxwell, Mcintosh,440 Student,9,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Howard, Dunlap,440 Student,10,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Valeria, Pacheco,440 Student,11,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Yadiel, Haney,440 Student,12,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Tate, Carter,440 Student,13,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Kierra, Clayton,440 Student,14,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Ali, Dorsey,440 Student,15,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Carter, Dawson,440 Student,16,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Emmalee, Anderson,440 Student,17,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Mohamed, Prince,440 Student,18,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Adelyn, Boyle,440 Student,19,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Carson, George,440 Student,20,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Zaid, Herman,440 Student,21,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Noelle, Stephens,440 Student,22,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Heidi, Adams,440 Student,23,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Brynlee, Valenzuela,440 Student,24,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Nylah, Mason,440 Student,25,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Abagail, Blackwell,440 Student,26,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Gabriel, Rivera,440 Student,27,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Selah, Calhoun,440 Student,28,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Skylar, Kent,440 Student,29,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Makaila, Nicholson,440 Student,30,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Stephanie, Rangel,440 Student,31,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Julianne, Hutchinson,440 Student,32,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Abram, Decker,440 Student,33,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Crystal, Green,440 Student,34,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Brittany, Levy,440 Student,35,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Quinten, Tucker,440 Student,36,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Esteban, Rubio,440 Student,37,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Dayanara, Barry,440 Student,38,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Dane, Zimmerman,440 Student,39,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Jan, West,440 Student,40,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Zackary, Steele,440 Student,41,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Mareli, Silva,440 Student,42,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Leo, Luna,440 Student,43,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Milton, Cummings,440 Student,44,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Joy, Compton,440 Student,45,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Rachel, Malone,440 Student,46,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Haylee, Erickson,440 Student,47,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Shea, Knight,440 Student,48,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Kenna, Cordova,440 Student,49,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Jaylene, Pham,440 Student,50,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Yoselin, Petersen,440 Student,51,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Taniyah, Barr,440 Student,52,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Viviana, Hatfield,440 Student,53,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Chandler, Nichols,440 Student,54,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Audrina, Berg,440 Student,55,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Alanna, Hendricks,440 Student,56,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Emelia, Ali,440 Student,57,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Jaxon, Werner,440 Student,58,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Olivia, Yoder,440 Student,59,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Monica, Fernandez,440 Student,60,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Xzavier, Caldwell,440 Student,61,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Rosemary, Owen,440 Student,62,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Jaidyn, Rose,440 Student,63,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Thomas, Blair,440 Student,64,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Kyla, Bridges,440 Student,65,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Solomon, Tyler,440 Student,66,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Lainey, Arellano,440 Student,67,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Meredith, Velasquez,440 Student,68,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Esther, Lopez,440 Student,69,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Xiomara, Love,440 Student,70,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Zane, Reid,440 Student,71,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Trenton, Lindsey,440 Student,72,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Shane, Mcgrath,440 Student,73,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Dustin, Shepard,440 Student,74,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Itzel, Cochran,440 Student,75,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Jasiah, Whitney,440 Student,76,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Emmanuel, Chase,440 Student,77,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Emiliano, Waters,440 Student,78,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Reina, Herman,440 Student,79,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Micaela, Snow,440 Student,80,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Marlee, Hale,440 Student,81,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Angelica, Key,440 Student,82,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Elsa, Montes,440 Student,83,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Gerardo, Duncan,440 Student,84,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Gina, Barr,440 Student,85,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Genesis, Anthony,440 Student,86,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Peyton, Davenport,440 Student,87,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Valentino, Dean,440 Student,88,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+America, Cline,440 Student,89,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Luciano, Hammond,440 Student,90,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Alejandra, Norris,440 Student,91,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Angel, Macdonald,440 Student,92,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Colby, Donovan,440 Student,93,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Dustin, Watson,440 Student,94,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Mollie, Bright,440 Student,95,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Yandel, Osborne,440 Student,96,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Angelina, Spears,440 Student,97,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Kenzie, Pugh,440 Student,98,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Jazlynn, Fuentes,440 Student,99,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
+Emilia, Hines,440 Student,100,auto gen via ps1 script,"OU=Users, DC=.local",TRUE,root
