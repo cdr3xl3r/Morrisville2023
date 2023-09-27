@@ -32,17 +32,15 @@ foreach($user in $CSV) {
     $SecurePassword = ConvertTo-SecureString "$($user.'First Name'[0])$($user.'Last Name')$($user.'Employee ID')!@#" -AsPlainText -Force
 
     # Format their username
-    $Username = "$($user.'First Name').$($user.'Last Name')"
+    $Username = "$($user.'First Name'[0]).$($user.'Last Name')"
     $Username = $Username.Replace(" ", "")
 
     # Create new user
-    New-ADUser -Name "$($user.'First Name') $($user.'Last Name')" `
-                -GivenName $user.'First Name' `
-                -Surname $user.'Last Name' `
+    New-ADUser -Name $Username `
                 -UserPrincipalName $Username `
                 -SamAccountName $Username `
-                -Description $user.Description `
-                -Path "$($user.'Organizational Unit')" `
+                -Description $Username.Description `
+                -Path "$($Username.'Organizational Unit')" `
                 -ChangePasswordAtLogon $true `
                 -AccountPassword $SecurePassword `
                 -Enabled $([System.Convert]::ToBoolean($user.Enabled))
