@@ -47,12 +47,12 @@ foreach($user in $CSV) {
     Write-Host "Created $Username / $($user.'Email Address')"
 
     #If groups is not null... then iterate over groups (if any were specified) and add user to groups
-   if ($user.'Add Groups (csv)' -ne "") {
-        $user.'Add Groups (csv)'.Split(",") | ForEach-Object {
-        Add-ADGroupMember -Identity $_ -Members $Username
-        WriteHost "Added $Username to $_ group" # Log to console
-    }
-    }
+   #if ($user.'Add Groups (csv)' -ne "") {
+    #    $user.'Add Groups (csv)'.Split(",") | ForEach-Object {
+     #   Add-ADGroupMember -Identity $_ -Members $Username
+      #  WriteHost "Added $Username to $_ group" # Log to console
+    #}
+    #}
 
     # Write to host that we created the user
     Write-Host "Created user $Username with groups $($Username.'Add Groups (csv)')"
