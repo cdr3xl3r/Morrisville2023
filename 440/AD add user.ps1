@@ -39,7 +39,7 @@ foreach($user in $CSV) {
                 -UserPrincipalName $Username `
                 -SamAccountName $Username `
                 -Description $user.Description `
-                -Path "$($user.'Organizational Unit')" `
+                -Path $($user.'Organizational Unit') `
                 -ChangePasswordAtLogon $true `
                 -Enabled $([System.Convert]::ToBoolean($user.Enabled))
 
