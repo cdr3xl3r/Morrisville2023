@@ -40,22 +40,24 @@ foreach($user in $CSV) {
                 -SamAccountName $Username `
                 -Description $user.Description `
                 -Path $user.'Organizational Unit'
-                -ChangePasswordAtLogon $true `
+                #-ChangePasswordAtLogon $true `
                 -Enabled $([System.Convert]::ToBoolean($user.Enabled))
 
     # Write to host that we created a new user
     Write-Host "Created $Username / $($user.'Email Address')"
 
-    #If groups is not null... then iterate over groups (if any were specified) and add user to groups
-   #if ($user.'Add Groups (csv)' -ne "") {
-    #    $user.'Add Groups (csv)'.Split(",") | ForEach-Object {
-     #   Add-ADGroupMember -Identity $_ -Members $Username
-      #  WriteHost "Added $Username to $_ group" # Log to console
-    #}
-    #}
-
-    # Write to host that we created the user
-    Write-Host "Created user $Username with groups $($Username.'Add Groups (csv)')"
-}
 
 Read-Host -Prompt "Script complete... Press enter to exit."
+
+
+#    #If groups is not null... then iterate over groups (if any were specified) and add user to groups
+#if ($user.'Add Groups (csv)' -ne "") {
+#    $user.'Add Groups (csv)'.Split(",") | ForEach-Object {
+#   Add-ADGroupMember -Identity $_ -Members $Username
+#  WriteHost "Added $Username to $_ user" # Log to console
+#}
+#}
+
+# Write to host that we created the user
+#Write-Host "Created user $Username with groups $($Username.'Add Groups (csv)')"
+}
