@@ -39,8 +39,8 @@ foreach($user in $CSV) {
     New-ADUser -Name $Username `
                 -UserPrincipalName $Username `
                 -SamAccountName $Username `
-                -Description $Username.Description `
-                -Path "$($Username.'Organizational Unit')" `
+                -Description $user.Description `
+                -Path "$($user.'Organizational Unit')" `
                 -ChangePasswordAtLogon $true `
                 -Enabled $([System.Convert]::ToBoolean($user.Enabled))
 
@@ -48,8 +48,8 @@ foreach($user in $CSV) {
     Write-Host "Created $Username / $($user.'Email Address')"
 
     # If groups is not null... then iterate over groups (if any were specified) and add user to groups
-    if ($Username.'Add Groups (csv)' -ne "") {
-        $Username.'Add Groups (csv)'.Split(",") | ForEach-Object {
+    if ($user.'Add Groups (csv)' -ne "") {
+        $user.'Add Groups (csv)'.Split(",") | ForEach-Object {
             Add-ADGroupMember -Identity $_ -Members $Username
             WriteHost "Added $Username to $_ group" # Log to console
         }
