@@ -29,10 +29,9 @@ if ([System.IO.File]::Exists($CSVFile)) {
 foreach($user in $CSV) {
 
     # Password
-    $SecurePassword = ConvertTo-SecureString "$($user.'First Name'[0])$($user.'Last Name')" -AsPlainText -Force
-
+    
     # Format their username
-    $Username = "$($user.'First Name'[0]).$($user.'Last Name')"
+    $Username = "$($user.'First Name'[0])$($user.'Last Name')"
     $Username = $Username.Replace(" ", "")
 
     # Create new user
@@ -48,12 +47,12 @@ foreach($user in $CSV) {
     Write-Host "Created $Username / $($user.'Email Address')"
 
     # If groups is not null... then iterate over groups (if any were specified) and add user to groups
-    if ($user.'Add Groups (csv)' -ne "") {
-        $user.'Add Groups (csv)'.Split(",") | ForEach-Object {
-            Add-ADGroupMember -Identity $_ -Members $Username
-            WriteHost "Added $Username to $_ group" # Log to console
-        }
-    }
+   # if ($user.'Add Groups (csv)' -ne "") {
+    #    $user.'Add Groups (csv)'.Split(",") | ForEach-Object {
+     #       Add-ADGroupMember -Identity $_ -Members $Username
+      #      WriteHost "Added $Username to $_ group" # Log to console
+       # }
+    #}
 
     # Write to host that we created the user
     Write-Host "Created user $Username with groups $($Username.'Add Groups (csv)')"
