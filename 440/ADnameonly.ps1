@@ -38,10 +38,9 @@ foreach($user in $CSV) {
     New-ADUser -Name $user `
                 -UserPrincipalName $Username `
                 -SamAccountName $Username `
-                -Description $user.Description `
-                -Path $user.'Organizational Unit'
-                #-ChangePasswordAtLogon $true `
-                -Enabled $([System.Convert]::ToBoolean($user.Enabled))
+                -Path $user.'Organizational Unit' `
+                -ChangePasswordAtLogon $true `
+                -Enabled $true `
 
     # Write to host that we created a new user
     Write-Host "Created $Username / $($user.'Email Address')"
